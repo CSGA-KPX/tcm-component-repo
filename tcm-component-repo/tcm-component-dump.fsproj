@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>KPX.TCMComp.Dump</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="TCMID_website.7z" />
+    <EmbeddedResource Include="TCMSP_Herbs.7z" />
+    <EmbeddedResource Include="TCMSP_Molecules.7z" />
+    <Compile Include="Resource.fs" />
+    <Compile Include="DataStructs.fs" />
+    <Compile Include="DumpTCMID.fs" />
+    <Compile Include="DumpTCMSP.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HtmlAgilityPack" Version="1.12.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="SharpCompress" Version="0.39.0" />
+  </ItemGroup>
+
+</Project>
