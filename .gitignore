@@ -362,3 +362,8 @@ MigrationBackup/
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
 /tcm-component-SugarRemoval/java-23
+/tcm-component-SugarRemoval/SugarRemovalUtilit_Usage instructions.txt
+/tcm-component-SugarRemoval/SugarRemovalUtility.jar
+/tcm-component-SugarRemoval/SugarRemovalUtility.smi
+/tcm-component-SugarRemoval/deglycosylation_results.txt
+/tcm-component-SugarRemoval/sru_post_out.smi
