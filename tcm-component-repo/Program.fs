@@ -1,12 +1,10 @@
 ﻿module KPX.TCMComp.Dump.Program
 
 open System
-open System.Text
 open System.IO
 open System.Collections.Generic
 
 open Newtonsoft.Json
-open Newtonsoft.Json.Linq
 
 open KPX.TCMComp.Dump
 open KPX.TCMComp.Dump.DataStructs
@@ -20,9 +18,6 @@ type Dumped =
 
 [<EntryPoint>]
 let main args = 
-    // 麻烦东西
-    //Text.Encoding.RegisterProvider(Text.CodePagesEncodingProvider.Instance)
-
     let dumpedDict = Dictionary<string, Dumped>()
 
     let inline addOrUpdate (c : ChemicalInfo) = 
