@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.13.35913.81
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "tcm-component-dump", "tcm-component-repo\tcm-component-dump.fsproj", "{E3DC324D-02F1-4461-A597-5ABD917BF254}"
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "tcm-component-dump", "tcm-component-dump\tcm-component-dump.fsproj", "{E3DC324D-02F1-4461-A597-5ABD917BF254}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
